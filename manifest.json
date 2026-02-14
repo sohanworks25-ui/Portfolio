@@ -1,0 +1,23 @@
+
+{
+  "name": "Sohan's Professional Portfolio",
+  "short_name": "Sohan",
+  "description": "The professional portfolio and CMS of Sohan, Senior Full Stack Engineer.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=192&h=192&fit=crop",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=512&h=512&fit=crop",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

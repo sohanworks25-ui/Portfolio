@@ -1,0 +1,28 @@
+
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+
+// Service Worker registration removed due to origin mismatch in development environment.
+// For production deployments on standard domains, re-enable the registration below.
+/*
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./sw.js')
+      .then(registration => console.log('SW registered'))
+      .catch(err => console.error('SW failed', err));
+  });
+}
+*/
+
+const rootElement = document.getElementById('root');
+if (!rootElement) {
+  throw new Error("Could not find root element to mount to");
+}
+
+const root = ReactDOM.createRoot(rootElement);
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
